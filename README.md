@@ -64,7 +64,7 @@ string request = "<?xml version=\"1.0\"?>\n"
 			+ "</TStream>\n";
 
 // Process the XML request
-_pdcx.ServerIPConfig(hostList, processControl);
+_pdcx.ServerIPConfig("x1.mercurydev.net;x2.mercurydev.net", processControl);
 _pdcx.SetConnectTimeout((short)5);
 _pdcx.SetResponseTimeout((short)60);
 string response = _pdcx.ProcessTransaction(request, 1, string.Empty, string.Empty);
