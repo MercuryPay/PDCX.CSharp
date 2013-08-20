@@ -40,7 +40,7 @@ Below is a sample Credit Sale transaction.
 string request = "<?xml version=\"1.0\"?>\n"
 			+ "<TStream>\n"
 			+ "  <Transaction>\n"
-			+ "    <MerchantID>395347308=E2ETKN</MerchantID>\n"
+			+ "    <MerchantID>019588466313922</MerchantID>\n"
 			+ "    <TranType>Credit</TranType>\n"
 			+ "    <TranCode>Sale</TranCode>\n"
 			+ "    <InvoiceNo>10</InvoiceNo>\n"
@@ -76,15 +76,15 @@ Parse the XML Response using the XMLHelper.ParseXMLResponse(string xmlResponse) 
 
 This method returns a Dictionary&lt;string, string&gt;.
 
-Approved transactions will have a CmdStatus equal to "Approved".
+Approved transactions will have a CmdStatus equal to "Approved" or "Success".
 
 ```
 Dictionary<string, string> responseDictionary = XMLHelper.ParseXMLResponse(xmlResponse);
 
 if (responseDictionary.ContainsKey("CmdStatus")
-   && responseDictionary["CmdStatus"] == "Approved")
+    && (responseDictionary["CmdStatus"] == "Approved" || responseDictionary["CmdStatus"] == "Success"))
 {
-   // Approved logic goes here
+   // Approved/Success logic goes here
 }
 else
 {
