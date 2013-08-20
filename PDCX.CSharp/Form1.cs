@@ -204,7 +204,7 @@ namespace PDCX.CSharp
 
                     this.rtbRequest.Clear();
                     this.rtbRequest.Text = xdoc.ToString();
-                }
+                }               
             }
             catch (Exception ex)
             {
