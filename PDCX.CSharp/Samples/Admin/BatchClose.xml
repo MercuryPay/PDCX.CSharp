@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<TStream>
+  <Admin>
+    <MerchantID>595901</MerchantID>
+    <TranCode>BatchClose</TranCode>    
+    <BatchNo>1</BatchNo>
+    <BatchItemCount>1</BatchItemCount>
+    <NetBatchTotal>1.00</NetBatchTotal>
+    <CreditPurchaseCount>1</CreditPurchaseCount>
+    <CreditPurchaseAmount>1.00</CreditPurchaseAmount>
+    <CreditReturnCount>0</CreditReturnCount>
+    <CreditReturnAmount>0.00</CreditReturnAmount>
+    <DebitPurchaseCount>0</DebitPurchaseCount>
+    <DebitPurchaseAmount>0.00</DebitPurchaseAmount>
+    <DebitReturnCount>0</DebitReturnCount>
+    <DebitReturnAmount>0.00</DebitReturnAmount>
+    <SecureDevice>NONE</SecureDevice>
+    <ComPort>0</ComPort>
+    <Account>
+      <AcctNo>SecureDevice</AcctNo>
+    </Account>
+    <TerminalName>MPS Terminal</TerminalName>
+    <ShiftID>MPS Shift</ShiftID>
+    <OperatorID>MPS Operator</OperatorID>
+    <Memo>MPS PDCX Example v1.0</Memo>
+  </Admin>
+</TStream>

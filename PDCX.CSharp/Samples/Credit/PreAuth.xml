@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<TStream>
+  <Transaction>
+    <MerchantID>395347308=E2ETKN</MerchantID>
+    <TranType>Credit</TranType>
+    <TranCode>PreAuth</TranCode>
+    <InvoiceNo>16</InvoiceNo>
+    <RefNo>16</RefNo>
+    <PartialAuth>Allow</PartialAuth>
+    <Frequency>OneTime</Frequency>
+    <RecordNo>RecordNumberRequested</RecordNo>    
+    <Amount>
+      <Purchase>2.00</Purchase>
+      <Authorize>2.00</Authorize>
+    </Amount>
+    <SecureDevice>NONE</SecureDevice>
+    <ComPort>0</ComPort>
+    <Account>
+      <AcctNo>SecureDevice</AcctNo>
+    </Account>
+    <TerminalName>MPS Terminal</TerminalName>
+    <ShiftID>MPS Shift</ShiftID>
+    <OperatorID>MPS Operator</OperatorID>
+    <Memo>MPS PDCX Example v1.0</Memo>
+  </Transaction>
+</TStream>

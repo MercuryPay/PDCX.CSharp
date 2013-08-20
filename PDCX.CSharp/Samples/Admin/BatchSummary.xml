@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<TStream>
+  <Admin>
+    <MerchantID>595901</MerchantID>
+    <TranCode>BatchSummary</TranCode>    
+    <SecureDevice>NONE</SecureDevice>
+    <ComPort>0</ComPort>
+    <Account>
+      <AcctNo>SecureDevice</AcctNo>
+    </Account>
+    <TerminalName>MPS Terminal</TerminalName>
+    <ShiftID>MPS Shift</ShiftID>
+    <OperatorID>MPS Operator</OperatorID>
+    <Memo>MPS PDCX Example v1.0</Memo>
+  </Admin>
+</TStream>

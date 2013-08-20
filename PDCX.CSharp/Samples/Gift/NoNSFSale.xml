@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<TStream>
+  <Transaction>
+    <IpPort>9100</IpPort>
+    <MerchantID>595901</MerchantID>
+    <TranType>PrePaid</TranType>
+    <TranCode>NoNSFSale</TranCode>
+    <InvoiceNo>1</InvoiceNo>
+    <RefNo>1</RefNo>
+    <Amount>
+      <Purchase>1.00</Purchase>
+    </Amount>
+    <SecureDevice>NONE</SecureDevice>
+    <ComPort>0</ComPort>
+    <Account>
+      <AcctNo>SecureDevice</AcctNo>
+    </Account>
+    <TerminalName>MPS Terminal</TerminalName>
+    <ShiftID>MPS Shift</ShiftID>
+    <OperatorID>MPS Operator</OperatorID>
+    <Memo>MPS PDCX Example v1.0</Memo>
+  </Transaction>
+</TStream>
