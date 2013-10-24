@@ -149,6 +149,7 @@
     </Content>
     <Content Include="Samples\Credit\Sale.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="Samples\Credit\SaleByRecordNo.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -193,6 +194,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Samples\Gift\VoidSale.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Samples\Signature\GetSignature.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Samples\USDebit\Return.xml">

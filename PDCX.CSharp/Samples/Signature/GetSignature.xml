@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<TStream>
+  <Transaction>
+    <MerchantID>023358150511666</MerchantID>
+    <OperatorID>Test</OperatorID>
+    <TranCode>GetSignature</TranCode>
+    <SecureDevice>UIC795</SecureDevice>
+    <ComPort>1</ComPort>
+    <Account>
+      <AcctNo>SecureDevice</AcctNo>
+    </Account>
+  </Transaction>
+</TStream>
