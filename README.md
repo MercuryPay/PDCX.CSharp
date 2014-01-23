@@ -10,7 +10,7 @@ PDCX C# MercuryPay Integration
 This command should be performed during startup of the POS system with the optional PIN pad attached. 
 It should not be performed prior to every transaction as it takes several seconds to complete with an attached PIN pad.
   
-```
+```C#
 // Initialize the PDCX bbect
 private DSIPDCXLib.DsiPDCX _pdcx = new DSIPDCXLib.DsiPDCX();
 
@@ -35,7 +35,7 @@ string response = _pdcx.ProcessTransaction(request, 1, string.Empty, string.Empt
 Build XML transactions and process with PDCX object.
 
 Below is a sample Credit Sale transaction.
-```
+```C#
  // MagTek IPAD Example XML
 string request = "<?xml version=\"1.0\"?>\n"
 			+ "<TStream>\n"
@@ -78,7 +78,7 @@ This method returns a Dictionary&lt;string, string&gt;.
 
 Approved transactions will have a CmdStatus equal to "Approved" or "Success".
 
-```
+```C#
 Dictionary<string, string> responseDictionary = XMLHelper.ParseXMLResponse(xmlResponse);
 
 if (responseDictionary.ContainsKey("CmdStatus")
