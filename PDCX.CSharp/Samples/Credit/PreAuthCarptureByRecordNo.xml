@@ -2,7 +2,7 @@
 <TStream>
   <Transaction>
     <MerchantID>019588466313922</MerchantID>
-    <LaneID>02</LaneID>
+    <LaneID>02</LaneID> <!--for multiple input device enivronments-->
     <TranType>Credit</TranType>
     <TranCode>PreAuthCaptureByRecordNo</TranCode>
     <InvoiceNo>18</InvoiceNo>
