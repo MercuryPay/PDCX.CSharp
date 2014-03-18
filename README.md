@@ -41,6 +41,7 @@ string request = "<?xml version=\"1.0\"?>\n"
 			+ "<TStream>\n"
 			+ "  <Transaction>\n"
 			+ "    <MerchantID>019588466313922</MerchantID>\n"
+			+ "    <LaneID>02</LaneID> 
 			+ "    <TranType>Credit</TranType>\n"
 			+ "    <TranCode>Sale</TranCode>\n"
 			+ "    <InvoiceNo>10</InvoiceNo>\n"
