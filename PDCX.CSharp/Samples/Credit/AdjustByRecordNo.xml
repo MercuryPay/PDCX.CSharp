@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0"?>
 <TStream>
   <Transaction>
-    <MerchantID>395347308=E2ETKN</MerchantID>
-    <LaneID>02</LaneID>                               //for environments with multiple input devices
+    <MerchantID>019588466313922</MerchantID>
+    <LaneID>02</LaneID>                               
     <TranType>Credit</TranType>
     <TranCode>AdjustByRecordNo</TranCode>
     <RefNo>0024</RefNo>

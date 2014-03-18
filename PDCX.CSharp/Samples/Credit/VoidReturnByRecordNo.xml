@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0"?>
 <TStream>
   <Transaction>
-    <MerchantID>395347308=E2ETKN</MerchantID>
+    <MerchantID>019588466313922</MerchantID>
+    <LaneID>02</LaneID>
     <TranType>Credit</TranType>
     <TranCode>VoidReturnByRecordNo</TranCode>
     <InvoiceNo>15</InvoiceNo>
