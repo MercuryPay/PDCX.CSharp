@@ -2,7 +2,7 @@
 <TStream>
   <Transaction>
     <IpPort>9100</IpPort>
-    <MerchantID>395347305=E2E</MerchantID>
+    <MerchantID>019588466313922</MerchantID>
     <TranType>PrePaid</TranType>
     <TranCode>Sale</TranCode>
     <InvoiceNo>4</InvoiceNo>
