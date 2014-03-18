@@ -2,6 +2,7 @@
 <TStream>
   <Transaction>
     <MerchantID>395347308=E2ETKN</MerchantID>
+    <LaneID>02</LaneID>                               //for environments with multiple input devices
     <TranType>Credit</TranType>
     <TranCode>AdjustByRecordNo</TranCode>
     <RefNo>0024</RefNo>
