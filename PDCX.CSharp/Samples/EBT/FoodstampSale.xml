@@ -6,21 +6,13 @@
     <CardType>Foodstamp</CardType>
     <TranCode>Sale</TranCode>
     <InvoiceNo>2</InvoiceNo>
-    <RefNo>0001</RefNo>
-    <Memo>MPS Example XML v1.0</Memo>
     <Frequency>OneTime</Frequency>
     <RecordNo>RecordNumberRequested</RecordNo> 
-    <Amount>
-      <Purchase>2.00</Purchase>
-    </Amount>
+    <Purchase>2.00</Purchase>
     <SecureDevice>NONE</SecureDevice>
     <ComPort>0</ComPort>
-    <Account>
-      <AcctNo>SecureDevice</AcctNo>
-    </Account>
-    <TerminalName>MPS Terminal</TerminalName>
-    <ShiftID>MPS Shift</ShiftID>
-    <OperatorID>MPS Operator</OperatorID>
+    <AcctNo>SecureDevice</AcctNo>
+    <OperatorID>Test</OperatorID>
     <Memo>MPS PDCX Example v1.0</Memo>
   </Transaction>
 </TStream>

@@ -2,25 +2,17 @@
 <TStream>
   <Transaction>
     <IpPort>9100</IpPort>
-    <MerchantID>595901</MerchantID>
+    <MerchantID>003503902913105</MerchantID>
     <TranType>PrePaid</TranType>
     <TranCode>VoidIssue</TranCode>
     <InvoiceNo>1</InvoiceNo>
     <RefNo>000001</RefNo>
-    <Amount>
-      <Purchase>1.00</Purchase>
-    </Amount>
-    <TranInfo>
-      <AuthCode>000001</AuthCode>
-    </TranInfo>
+    <Purchase>1.00</Purchase>
+    <AuthCode>000001</AuthCode>
     <SecureDevice>NONE</SecureDevice>
     <ComPort>0</ComPort>
-    <Account>
-      <AcctNo>SecureDevice</AcctNo>
-    </Account>
-    <TerminalName>MPS Terminal</TerminalName>
-    <ShiftID>MPS Shift</ShiftID>
-    <OperatorID>MPS Operator</OperatorID>
+    <AcctNo>SecureDevice</AcctNo>
+    <OperatorID>Test</OperatorID>
     <Memo>MPS PDCX Example v1.0</Memo>
   </Transaction>
 </TStream>

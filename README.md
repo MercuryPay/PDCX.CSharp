@@ -36,7 +36,7 @@ Build XML transactions and process with PDCX object.
 
 Below is a sample Credit Sale transaction.
 ```C#
- // VX805 with Mercury Encryption Example XML
+ // MagTek IPAD Example XML
 string request = "<?xml version=\"1.0\"?>\n"
 			+ "<TStream>\n"
 			+ "  <Transaction>\n"

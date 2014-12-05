@@ -110,8 +110,8 @@ namespace PDCX.CSharp
 
         private void SetupForm()
         {
-            this.txtNETePayHostList.Text = Config.NETePayHostList;
-            this.txtGIFTePayHostList.Text = Config.GIFTePayHostList;
+            this.cmbNETePayHostList.DataSource = Config.NETePayHostList;
+            this.cmbGIFTePayHostList.DataSource = Config.GIFTePayHostList;
             this.chkTargetGift.Checked = false;
             this.chkShowDialogs.Checked = false;
             this.chkKeyedTransaction.Checked = false;
@@ -125,8 +125,8 @@ namespace PDCX.CSharp
 
         private void TargetEPayServer()
         {
-            this.txtNETePayHostList.Enabled = !this.chkTargetGift.Checked;
-            this.txtGIFTePayHostList.Enabled = this.chkTargetGift.Checked;
+            this.cmbNETePayHostList.Enabled = !this.chkTargetGift.Checked;
+            this.cmbGIFTePayHostList.Enabled = this.chkTargetGift.Checked;
         }
 
         private void LoadXMLRequest()
@@ -256,7 +256,7 @@ namespace PDCX.CSharp
 
             DateTime startTime = DateTime.Now;
 
-            string hostList = this.chkTargetGift.Checked ? this.txtGIFTePayHostList.Text : this.txtNETePayHostList.Text;
+            string hostList = this.chkTargetGift.Checked ? this.cmbGIFTePayHostList.Text : this.cmbNETePayHostList.Text;
             _pdcx.ServerIPConfig(hostList, processControl);
             _pdcx.SetConnectTimeout((short)this.nudConnectTimeout.Value);
             _pdcx.SetResponseTimeout((short)this.nudRepsonseTimeout.Value);
@@ -277,11 +277,27 @@ namespace PDCX.CSharp
             requestDictionary.Add("PadType", this.cmbPadTypes.Text);
             requestDictionary.Add("SecureDevice", this.cmbSecureDevices.Text);
             requestDictionary.Add("ComPort", this.nudComPort.Value.ToString());
+     
 
             return XMLHelper.BuildXMLRequest(requestDictionary, "Admin").ToString();
         }
 
         #endregion Methods
+
+        private void cmbPadTypes_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNETePayHostList_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbNETePayHostList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
 
         
     }

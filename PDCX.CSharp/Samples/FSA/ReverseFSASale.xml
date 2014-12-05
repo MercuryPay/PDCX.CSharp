@@ -4,14 +4,19 @@
     <MerchantID>019588466313922</MerchantID>
     <LaneID>02</LaneID> <!--for multiple input device enivronments-->
     <TranType>Credit</TranType>
-    <TranCode>SaleByRecordNo</TranCode>
-    <InvoiceNo>11</InvoiceNo>
+    <TranCode>ReverseFSASale</TranCode>
+    <InvoiceNo>10</InvoiceNo>
+    <RefNo>00001</RefNo>
     <Frequency>OneTime</Frequency>
-    <RecordNo>j21QXLNsPvnO7EVdSwkftwu4bOTN16dlIhESEAAjEAB1gA==</RecordNo>
+    <RecordNo>RecordNumberRequested</RecordNo>
+    <PartialAuth>Allow</PartialAuth>
+    <AuthCode></AuthCode>
+    <AcqRefData></AcqRefData>
+    <Purchase>1.05</Purchase>
+    <FSAPrescription>1.00</FSAPrescription> <!--Alwasy requred as a subfield for all FSA. If no prescription amount, populate with 0.00 -->
     <SecureDevice>NONE</SecureDevice>
     <ComPort>0</ComPort>
     <AcctNo>SecureDevice</AcctNo>
-    <Purchase>1.03</Purchase>
     <OperatorID>Test</OperatorID>
     <Memo>MPS PDCX Example v1.0</Memo>
   </Transaction>

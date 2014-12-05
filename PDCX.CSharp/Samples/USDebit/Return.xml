@@ -2,21 +2,13 @@
 <TStream>
   <Transaction>
     <MerchantID>019588466313922</MerchantID>
-    <LaneID>02</LaneID> <!--for multiple input device enivronments-->
     <TranType>Debit</TranType>
     <TranCode>Return</TranCode>
     <InvoiceNo>31</InvoiceNo>
-    <RefNo>31</RefNo>    
-    <Amount>
-      <Purchase>1.00</Purchase>
-    </Amount>
+    <Purchase>1.00</Purchase>
     <SecureDevice>NONE</SecureDevice>
     <ComPort>0</ComPort>
-    <Account>
-      <AcctNo>SecureDevice</AcctNo>
-    </Account>    
-    <TerminalName>MPS Terminal</TerminalName>
-    <ShiftID>MPS Shift</ShiftID>
+    <AcctNo>SecureDevice</AcctNo>
     <OperatorID>MPS Operator</OperatorID>
     <Memo>MPS PDCX Example v1.0</Memo>
   </Transaction>

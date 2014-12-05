@@ -6,8 +6,6 @@
     <TranCode>GetSignature</TranCode>
     <SecureDevice>UIC795</SecureDevice>
     <ComPort>1</ComPort>
-    <Account>
-      <AcctNo>SecureDevice</AcctNo>
-    </Account>
+    <AcctNo>SecureDevice</AcctNo>
   </Transaction>
 </TStream>

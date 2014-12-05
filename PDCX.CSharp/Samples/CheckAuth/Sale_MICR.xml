@@ -5,23 +5,16 @@
     <TranType>CheckAuth</TranType>
     <TranCode>Sale</TranCode>
     <InvoiceNo>1</InvoiceNo>
-    <RefNo>1</RefNo>
-    <Memo>MPS PDCX Example v1.0</Memo>
-    <Amount>
-      <Purchase>1.00</Purchase>
-    </Amount>
+    <Purchase>1.00</Purchase>
     <SecureDevice>NONE</SecureDevice>
     <ComPort>0</ComPort>
-    <Account>
-      <AcctNo>SecureDevice</AcctNo>
-      <MICR>Reader</MICR>
-      <RoutingNo>559012138</RoutingNo>
-      <AcctNo>91971309</AcctNo>
-      <SequenceNo>3241</SequenceNo>
-      <StateCode>98</StateCode>
-    </Account>
-    <TerminalName>MPS Terminal</TerminalName>
-    <ShiftID>MPS Shift</ShiftID>
-    <OperatorID>MPS Operator</OperatorID>
+    <AcctNo>SecureDevice</AcctNo>
+    <MICR>Reader</MICR>
+    <RoutingNo>559012138</RoutingNo>
+    <AcctNo>91971309</AcctNo>
+    <SequenceNo>3241</SequenceNo>
+    <StateCode>98</StateCode>
+    <OperatorID>Test</OperatorID>
+    <Memo>MPS PDCX Example v1.0</Memo>
   </Transaction>
 </TStream>

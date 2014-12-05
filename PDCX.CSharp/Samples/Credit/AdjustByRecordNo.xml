@@ -9,20 +9,12 @@
     <InvoiceNo>20</InvoiceNo>
     <Frequency>OneTime</Frequency>
     <RecordNo>GKlpfA6Iju0uQxj8wmOwCxja3sU5hKjlIhESEAAjEAB3xg==</RecordNo>
-    <Amount>
-      <Purchase>2.51</Purchase>
-    </Amount>
-    <TranInfo>
-      <AuthCode>123456</AuthCode>
-    </TranInfo>
+    <Purchase>2.51</Purchase>
+    <AuthCode>123456</AuthCode>
     <SecureDevice>NONE</SecureDevice>
     <ComPort>0</ComPort>
-    <Account>
-      <AcctNo>SecureDevice</AcctNo>
-    </Account>
-    <TerminalName>MPS Terminal</TerminalName>
-    <ShiftID>MPS Shift</ShiftID>
-    <OperatorID>MPS Operator</OperatorID>
+    <AcctNo>SecureDevice</AcctNo>
+    <OperatorID>Test</OperatorID>
     <Memo>MPS PDCX Example v1.0</Memo>
   </Transaction>
 </TStream>

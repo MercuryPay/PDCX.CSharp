@@ -2,12 +2,13 @@
 <TStream>
   <Transaction>
     <MerchantID>019588466313922</MerchantID>
+    <LaneID>02</LaneID> 
     <TranType>Credit</TranType>
-    <TranCode>ReturnByRecordNo</TranCode>
-    <InvoiceNo>14</InvoiceNo>
+    <TranCode>ZeroAuth</TranCode>
+    <InvoiceNo>16</InvoiceNo>
     <Frequency>OneTime</Frequency>
-    <RecordNo>WTPEkreePNKh79MPIQmBbjTq90gx6nLKIhESEAAjEAB3oA==</RecordNo>
-    <Purchase>2.02</Purchase>
+    <RecordNo>RecordNumberRequested</RecordNo>    
+    <Purchase>0.00</Purchase>
     <SecureDevice>NONE</SecureDevice>
     <ComPort>0</ComPort>
     <AcctNo>SecureDevice</AcctNo>
@@ -15,4 +16,3 @@
     <Memo>MPS PDCX Example v1.0</Memo>
   </Transaction>
 </TStream>
-

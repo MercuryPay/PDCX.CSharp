@@ -16,12 +16,7 @@
     <DebitReturnAmount>0.00</DebitReturnAmount>
     <SecureDevice>NONE</SecureDevice>
     <ComPort>0</ComPort>
-    <Account>
-      <AcctNo>SecureDevice</AcctNo>
-    </Account>
-    <TerminalName>MPS Terminal</TerminalName>
-    <ShiftID>MPS Shift</ShiftID>
-    <OperatorID>MPS Operator</OperatorID>
+    <AcctNo>SecureDevice</AcctNo>
     <Memo>MPS PDCX Example v1.0</Memo>
   </Admin>
 </TStream>
