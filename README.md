@@ -1,4 +1,4 @@
-PDCX.CSharp
+﻿PDCX.CSharp
 ===========
 
 PDCX C# MercuryPay Integration
@@ -36,7 +36,7 @@ Build XML transactions and process with PDCX object.
 
 Below is a sample Credit Sale transaction.
 ```C#
- // MagTek IPAD Example XML
+ // VX805 with Mercury Encryption Example XML
 string request = "<?xml version=\"1.0\"?>\n"
 			+ "<TStream>\n"
 			+ "  <Transaction>\n"
