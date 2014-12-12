@@ -6,18 +6,13 @@
     <CardType>Cash</CardType>
     <TranCode>Balance</TranCode>
     <InvoiceNo>10</InvoiceNo>
-    <RefNo>1</RefNo>
-    <Amount>
-      <Purchase>0.00</Purchase>
-    </Amount>
+    <Purchase>0.00</Purchase>
     <SecureDevice>NONE</SecureDevice>
     <ComPort>0</ComPort>
     <Account>
       <AcctNo>SecureDevice</AcctNo>
     </Account>
-    <TerminalName>MPS Terminal</TerminalName>
-    <ShiftID>MPS Shift</ShiftID>
-    <OperatorID>MPS Operator</OperatorID>
-    <Memo>MPS PDCX Example v1.0</Memo>
+    <OperatorID>Test</OperatorID>
+    <Memo>MPS PDCX Example V1.0</Memo>
   </Transaction>
 </TStream>

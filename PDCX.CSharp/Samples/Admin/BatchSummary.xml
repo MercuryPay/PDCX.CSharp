@@ -8,9 +8,6 @@
     <Account>
       <AcctNo>SecureDevice</AcctNo>
     </Account>
-    <TerminalName>MPS Terminal</TerminalName>
-    <ShiftID>MPS Shift</ShiftID>
-    <OperatorID>MPS Operator</OperatorID>
-    <Memo>MPS PDCX Example v1.0</Memo>
+    <Memo>MPS PDCX Example V1.0</Memo>
   </Admin>
 </TStream>
