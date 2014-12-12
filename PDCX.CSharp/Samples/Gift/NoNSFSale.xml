@@ -10,8 +10,10 @@
     <Purchase>1.00</Purchase>
     <SecureDevice>NONE</SecureDevice>
     <ComPort>0</ComPort>
-    <AcctNo>SecureDevice</AcctNo>
+    <Account>
+      <AcctNo>SecureDevice</AcctNo>
+    </Account>
     <OperatorID>MPS Operator</OperatorID>
-    <Memo>MPS PDCX Example v1.0</Memo>
+    <Memo>MPS PDCX Example V1.0</Memo>
   </Transaction>
 </TStream>

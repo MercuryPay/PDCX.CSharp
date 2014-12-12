@@ -2,7 +2,7 @@
 <TStream>
   <Transaction>
     <MerchantID>019588466313922</MerchantID>
-    <LaneID>02</LaneID> <!--for multiple input device enivronments-->
+    <LaneID>02</LaneID> 
     <TranType>Credit</TranType>
     <TranCode>ReverseFSASale</TranCode>
     <InvoiceNo>10</InvoiceNo>
@@ -16,8 +16,10 @@
     <FSAPrescription>1.00</FSAPrescription> <!--Alwasy requred as a subfield for all FSA. If no prescription amount, populate with 0.00 -->
     <SecureDevice>NONE</SecureDevice>
     <ComPort>0</ComPort>
-    <AcctNo>SecureDevice</AcctNo>
+    <Account>
+      <AcctNo>SecureDevice</AcctNo>
+    </Account>
     <OperatorID>Test</OperatorID>
-    <Memo>MPS PDCX Example v1.0</Memo>
+    <Memo>Chris J Test</Memo>
   </Transaction>
 </TStream>

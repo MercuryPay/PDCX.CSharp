@@ -2,7 +2,7 @@
 <TStream>
   <Transaction>
     <MerchantID>019588466313922</MerchantID>
-    <LaneID>02</LaneID> <!--for multiple input device enivronments-->                               
+    <LaneID>02</LaneID>                                
     <TranType>Credit</TranType>
     <TranCode>AdjustByRecordNo</TranCode>
     <RefNo>0024</RefNo>
@@ -11,10 +11,12 @@
     <RecordNo>GKlpfA6Iju0uQxj8wmOwCxja3sU5hKjlIhESEAAjEAB3xg==</RecordNo>
     <Purchase>2.51</Purchase>
     <AuthCode>123456</AuthCode>
-    <SecureDevice>NONE</SecureDevice>
+    <Account>
+      <AcctNo>SecureDevice</AcctNo>
+    </Account>
     <ComPort>0</ComPort>
     <AcctNo>SecureDevice</AcctNo>
     <OperatorID>Test</OperatorID>
-    <Memo>MPS PDCX Example v1.0</Memo>
+    <Memo>MPS PDCX Example V1.0</Memo>
   </Transaction>
 </TStream>

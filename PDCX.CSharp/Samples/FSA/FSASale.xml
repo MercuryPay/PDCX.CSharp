@@ -10,11 +10,13 @@
     <RecordNo>RecordNumberRequested</RecordNo>
     <PartialAuth>Allow</PartialAuth>
     <Purchase>1.05</Purchase>
-    <FSAPrescription>1.00</FSAPrescription>
+    <FSAPrescription>1.00</FSAPrescription> <!--Alwasy requred as a subfield for all FSA. If no prescription amount, populate with 0.00 -->
     <SecureDevice>NONE</SecureDevice>
     <ComPort>0</ComPort>
-    <AcctNo>SecureDevice</AcctNo>
+    <Account>
+      <AcctNo>SecureDevice</AcctNo>
+    </Account>
     <OperatorID>Test</OperatorID>
-    <Memo>MPS PDCX Example v1.0</Memo>
+    <Memo>Chris J Test</Memo>
   </Transaction>
 </TStream>

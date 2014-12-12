@@ -13,8 +13,10 @@
     <Authorize>2.02</Authorize>
     <SecureDevice>NONE</SecureDevice>
     <ComPort>0</ComPort>
-    <AcctNo>SecureDevice</AcctNo>
+    <Account>
+      <AcctNo>SecureDevice</AcctNo>
+    </Account>
     <OperatorID>Test</OperatorID>
-    <Memo>MPS PDCX Example v1.0</Memo>
+    <Memo>Chris J Test</Memo>
   </Transaction>
 </TStream>

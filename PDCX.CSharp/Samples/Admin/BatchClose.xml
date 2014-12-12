@@ -14,9 +14,11 @@
     <DebitPurchaseAmount>0.00</DebitPurchaseAmount>
     <DebitReturnCount>0</DebitReturnCount>
     <DebitReturnAmount>0.00</DebitReturnAmount>
-    <SecureDevice>NONE</SecureDevice>
+    <Account>
+      <AcctNo>SecureDevice</AcctNo>
+    </Account>
     <ComPort>0</ComPort>
     <AcctNo>SecureDevice</AcctNo>
-    <Memo>MPS PDCX Example v1.0</Memo>
+    <Memo>MPS PDCX Example V1.0</Memo>
   </Admin>
 </TStream>

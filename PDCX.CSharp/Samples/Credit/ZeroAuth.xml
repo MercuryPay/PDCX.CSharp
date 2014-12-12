@@ -8,11 +8,13 @@
     <InvoiceNo>16</InvoiceNo>
     <Frequency>OneTime</Frequency>
     <RecordNo>RecordNumberRequested</RecordNo>    
-    <Purchase>0.00</Purchase>
+    <Purchase>2.00</Purchase>
     <SecureDevice>NONE</SecureDevice>
     <ComPort>0</ComPort>
-    <AcctNo>SecureDevice</AcctNo>
+    <Account>
+      <AcctNo>SecureDevice</AcctNo>
+    </Account>
     <OperatorID>Test</OperatorID>
-    <Memo>MPS PDCX Example v1.0</Memo>
+    <Memo>Chris J Test</Memo>
   </Transaction>
 </TStream>

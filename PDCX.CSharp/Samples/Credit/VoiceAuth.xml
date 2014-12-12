@@ -2,7 +2,7 @@
 <TStream>
   <Transaction>
     <MerchantID>019588466313922</MerchantID>
-    <LaneID>02</LaneID>
+    <LaneID>02</LaneID> 
     <TranType>Credit</TranType>
     <TranCode>VoiceAuth</TranCode>
     <InvoiceNo>19</InvoiceNo>
@@ -12,8 +12,10 @@
     <AuthCode>123456</AuthCode>
     <SecureDevice>NONE</SecureDevice>
     <ComPort>0</ComPort>
-    <AcctNo>SecureDevice</AcctNo>
+    <Account>
+      <AcctNo>SecureDevice</AcctNo>
+    </Account>
     <OperatorID>Test</OperatorID>
-    <Memo>MPS PDCX Example v1.0</Memo>
+    <Memo>MPS PDCX Example V1.0</Memo>
   </Transaction>
 </TStream>

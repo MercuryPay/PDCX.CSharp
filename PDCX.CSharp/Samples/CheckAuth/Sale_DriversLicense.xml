@@ -8,12 +8,14 @@
     <Purchase>1.00</Purchase>
     <SecureDevice>NONE</SecureDevice>
     <ComPort>0</ComPort>
-    <AcctNo>SecureDevice</AcctNo>
+    <Account>
+      <AcctNo>SecureDevice</AcctNo>
+    </Account>
     <DriversLicense>Z99999</DriversLicense>
     <StateCode>15</StateCode>
     <DateOfBirth>0880</DateOfBirth>
     <SequenceNo>3241</SequenceNo>
     <OperatorID>Test</OperatorID>
-    <Memo>MPS PDCX Example v1.0</Memo>
+    <Memo>MPS PDCX Example V1.0</Memo>
   </Transaction>
 </TStream>

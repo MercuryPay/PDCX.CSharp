@@ -5,7 +5,9 @@
     <TranCode>BatchClear</TranCode>    
     <SecureDevice>NONE</SecureDevice>
     <ComPort>0</ComPort>
-    <AcctNo>SecureDevice</AcctNo>
-    <Memo>MPS PDCX Example v1.0</Memo>
+    <Account>
+      <AcctNo>SecureDevice</AcctNo>
+    </Account>
+    <Memo>MPS PDCX Example V1.0</Memo>
   </Admin>
 </TStream>
