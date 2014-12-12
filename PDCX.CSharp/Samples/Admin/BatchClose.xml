@@ -18,7 +18,7 @@
       <AcctNo>SecureDevice</AcctNo>
     </Account>
     <ComPort>0</ComPort>
-    <AcctNo>SecureDevice</AcctNo>
+    <SecureDevice>NONE</SecureDevice>
     <Memo>MPS PDCX Example V1.0</Memo>
   </Admin>
 </TStream>
