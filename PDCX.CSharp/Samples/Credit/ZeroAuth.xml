@@ -8,7 +8,7 @@
     <InvoiceNo>16</InvoiceNo>
     <Frequency>OneTime</Frequency>
     <RecordNo>RecordNumberRequested</RecordNo>    
-    <Purchase>2.00</Purchase>
+    <Purchase>0.00</Purchase>
     <SecureDevice>NONE</SecureDevice>
     <ComPort>0</ComPort>
     <Account>
