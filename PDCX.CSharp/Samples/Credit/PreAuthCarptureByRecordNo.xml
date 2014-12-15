@@ -20,7 +20,7 @@
       <AcctNo>SecureDevice</AcctNo>
     </Account>
     <OperatorID>Test</OperatorID>
-    <Memo>Chris J Test</Memo>
+    <Memo>MPS PDCX Example V1.0</Memo>
   </Transaction>
 </TStream>
 
