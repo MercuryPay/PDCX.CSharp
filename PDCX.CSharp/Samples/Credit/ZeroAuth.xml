@@ -2,10 +2,12 @@
 <TStream>
   <Transaction>
     <MerchantID>019588466313922</MerchantID>
-    <TranType>EBT</TranType>
-    <CardType>Foodstamp</CardType>
-    <TranCode>Balance</TranCode>
-    <InvoiceNo>6</InvoiceNo>
+    <LaneID>02</LaneID> 
+    <TranType>Credit</TranType>
+    <TranCode>ZeroAuth</TranCode>
+    <InvoiceNo>16</InvoiceNo>
+    <Frequency>OneTime</Frequency>
+    <RecordNo>RecordNumberRequested</RecordNo>    
     <Purchase>0.00</Purchase>
     <SecureDevice>NONE</SecureDevice>
     <ComPort>0</ComPort>

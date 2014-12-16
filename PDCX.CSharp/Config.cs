@@ -14,14 +14,14 @@ namespace PDCX.CSharp
         private static string _SecureDeviceList;
         private static string _PadTypeList;
 
-        public static string NETePayHostList
+        public static List<string> NETePayHostList
         {
-            get { return _NETePayHostList; }
+            get { return _NETePayHostList.Split(_delimiter).ToList(); }
         }
 
-        public static string GIFTePayHostList
+        public static List<string> GIFTePayHostList
         {
-            get { return _GIFTePayHostList; }
+            get { return _GIFTePayHostList.Split(_delimiter).ToList(); }
         }
 
         public static List<string> MerchantIDList

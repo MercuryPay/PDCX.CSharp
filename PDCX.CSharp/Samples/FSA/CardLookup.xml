@@ -2,17 +2,14 @@
 <TStream>
   <Transaction>
     <MerchantID>019588466313922</MerchantID>
-    <TranType>EBT</TranType>
-    <CardType>Foodstamp</CardType>
-    <TranCode>Balance</TranCode>
-    <InvoiceNo>6</InvoiceNo>
-    <Purchase>0.00</Purchase>
+    <TranType>CardLookup</TranType>
+    <Frequency>OneTime</Frequency>
+    <RecordNo>RecordNumberRequested</RecordNo>
     <SecureDevice>NONE</SecureDevice>
     <ComPort>0</ComPort>
     <Account>
       <AcctNo>SecureDevice</AcctNo>
     </Account>
-    <OperatorID>Test</OperatorID>
     <Memo>MPS PDCX Example V1.0</Memo>
   </Transaction>
 </TStream>

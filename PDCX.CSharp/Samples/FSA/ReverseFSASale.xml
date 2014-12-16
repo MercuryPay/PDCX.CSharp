@@ -4,12 +4,16 @@
     <MerchantID>019588466313922</MerchantID>
     <LaneID>02</LaneID> 
     <TranType>Credit</TranType>
-    <TranCode>VoiceAuth</TranCode>
-    <InvoiceNo>19</InvoiceNo>
+    <TranCode>ReverseFSASale</TranCode>
+    <InvoiceNo>10</InvoiceNo>
+    <RefNo>00001</RefNo>
     <Frequency>OneTime</Frequency>
-    <RecordNo>RecordNumberRequested</RecordNo>    
-    <Purchase>1.50</Purchase>
-    <AuthCode>123456</AuthCode>
+    <RecordNo>RecordNumberRequested</RecordNo>
+    <PartialAuth>Allow</PartialAuth>
+    <AuthCode></AuthCode>
+    <AcqRefData></AcqRefData>
+    <Purchase>1.05</Purchase>
+    <FSAPrescription>1.00</FSAPrescription> <!--Alwasy requred as a subfield for all FSA. If no prescription amount, populate with 0.00 -->
     <SecureDevice>NONE</SecureDevice>
     <ComPort>0</ComPort>
     <Account>

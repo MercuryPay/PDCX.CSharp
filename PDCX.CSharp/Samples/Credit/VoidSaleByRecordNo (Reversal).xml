@@ -2,14 +2,16 @@
 <TStream>
   <Transaction>
     <MerchantID>019588466313922</MerchantID>
-    <LaneID>02</LaneID> 
     <TranType>Credit</TranType>
-    <TranCode>VoiceAuth</TranCode>
-    <InvoiceNo>19</InvoiceNo>
+    <TranCode>VoidSaleByRecordNo</TranCode>
+    <InvoiceNo>12</InvoiceNo>
+    <RefNo>0001</RefNo>
+    <RecordNo>rVsDck3QGPxKHeZnkp2G4O1T2olNac1bIhESEAAjEAB8Gg==</RecordNo>
     <Frequency>OneTime</Frequency>
-    <RecordNo>RecordNumberRequested</RecordNo>    
-    <Purchase>1.50</Purchase>
-    <AuthCode>123456</AuthCode>
+    <Purchase>1.01</Purchase>
+    <AuthCode>000027</AuthCode>
+    <AcqRefData></AcqRefData>
+    <ProcessData></ProcessData>
     <SecureDevice>NONE</SecureDevice>
     <ComPort>0</ComPort>
     <Account>

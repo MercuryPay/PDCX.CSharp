@@ -2,32 +2,25 @@
 <TStream>
   <Transaction>
     <MerchantID>019588466313922</MerchantID>
-    <LaneID>02</LaneID> <!--for multiple input device enivronments-->
+    <LaneID>02</LaneID> 
     <TranType>Credit</TranType>
     <TranCode>PreAuthCaptureByRecordNo</TranCode>
     <InvoiceNo>18</InvoiceNo>
-    <RefNo>18</RefNo>
     <PartialAuth>Allow</PartialAuth>
     <Frequency>OneTime</Frequency>
     <RecordNo>uoqG8KQh9Hn3MVWOJMlLlPh0NvplKCeTIhESEAAjEAB3sA==</RecordNo>
-    <Amount>
-      <Purchase>2.02</Purchase>
-      <Authorize>2.02</Authorize>
-      <Gratuity>0.20</Gratuity>
-    </Amount>
-    <TranInfo>
-      <AuthCode>000087</AuthCode>
-      <AcqRefData>KaNcCK  d5e00</AcqRefData>
-    </TranInfo>
+    <Purchase>2.02</Purchase>
+    <Authorize>2.02</Authorize>
+    <Gratuity>0.20</Gratuity>
+    <AuthCode>000087</AuthCode>
+    <AcqRefData>KaNcCK  d5e00</AcqRefData>
     <SecureDevice>NONE</SecureDevice>
     <ComPort>0</ComPort>
     <Account>
       <AcctNo>SecureDevice</AcctNo>
     </Account>
-    <TerminalName>MPS Terminal</TerminalName>
-    <ShiftID>MPS Shift</ShiftID>
-    <OperatorID>MPS Operator</OperatorID>
-    <Memo>MPS PDCX Example v1.0</Memo>
+    <OperatorID>Test</OperatorID>
+    <Memo>MPS PDCX Example V1.0</Memo>
   </Transaction>
 </TStream>
 
