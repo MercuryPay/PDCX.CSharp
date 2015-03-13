@@ -1,13 +1,13 @@
-<?xml version="1.0"?>
 <TStream>
   <Transaction>
-    <MerchantID>019588466313922</MerchantID>
-    <LaneID>02</LaneID> <!--for multiple input device enivronments-->
+    <MerchantID>023358150511666</MerchantID>
+    <LaneID>02</LaneID>
+    <!--for multiple input device enivronments-->
     <TranDeviceID></TranDeviceID>
     <TranType>Credit</TranType>
     <TranCode>Sale</TranCode>
     <InvoiceNo>10</InvoiceNo>
-    <RefNo>10</RefNo>    
+    <RefNo>10</RefNo>
     <Frequency>OneTime</Frequency>
     <RecordNo>RecordNumberRequested</RecordNo>
     <PartialAuth>Allow</PartialAuth>
@@ -17,7 +17,7 @@
     <AcctNo>SecureDevice</AcctNo>
     <TerminalName>MPS Terminal</TerminalName>
     <ShiftID>MPS Shift</ShiftID>
-    <OperatorID>MPS Operator</OperatorID>
+    <OperatorID>MPSOperator</OperatorID>
     <Memo>MPS PDCX Example v1.0</Memo>
   </Transaction>
 </TStream>
