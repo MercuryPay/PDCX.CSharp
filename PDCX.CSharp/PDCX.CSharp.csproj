@@ -196,13 +196,27 @@
     <Content Include="Samples\Gift\VoidSale.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Samples\ONTRAN\CashDrawerStatus.xml" />
-    <Content Include="Samples\ONTRAN\CreditSale.xml" />
-    <Content Include="Samples\ONTRAN\OpenCashDrawer.xml" />
-    <Content Include="Samples\ONTRAN\PassThrough.xml" />
-    <Content Include="Samples\ONTRAN\PoleDisplay.xml" />
-    <Content Include="Samples\ONTRAN\PrintReceipt.xml" />
-    <Content Include="Samples\ONTRAN\ServerVersion.xml" />
+    <Content Include="Samples\ONTRAN\CashDrawerStatus.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Samples\ONTRAN\CreditSale.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Samples\ONTRAN\OpenCashDrawer.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Samples\ONTRAN\PassThrough.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Samples\ONTRAN\PoleDisplay.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Samples\ONTRAN\PrintReceipt.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Samples\ONTRAN\ServerVersion.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Samples\Signature\GetSignature.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
