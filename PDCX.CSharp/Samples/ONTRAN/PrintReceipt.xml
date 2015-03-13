@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<TStream>
+  <Admin>
+    <TranDeviceID></TranDeviceID>    
+    <MerchantID>NONE</MerchantID>
+    <TranCode>PrintReceipt</TranCode>
+    <SecureDevice>NONE</SecureDevice>
+    <ComPort>0</ComPort>
+    <PrintData>
+      <Line1>.Line1</Line1>
+      <Line2>.Line2</Line2>
+      <Line3>.Line3</Line3>
+    </PrintData>
+  </Admin>
+</TStream>

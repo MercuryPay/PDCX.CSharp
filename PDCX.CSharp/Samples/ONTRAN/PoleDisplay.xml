@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<TStream>
+  <Admin>
+    <TranDeviceID></TranDeviceID>    
+    <MerchantID>NONE</MerchantID>
+    <TranCode>PoleDisplay</TranCode>
+    <SecureDevice>NONE</SecureDevice>
+    <ComPort>0</ComPort>
+    <DisplayData>
+      <Line1>.Line1</Line1>
+      <Line2>.Line2</Line2>
+    </DisplayData>
+  </Admin>
+</TStream>

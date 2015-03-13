@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<TStream>
+  <Admin>
+    <TranDeviceID></TranDeviceID>    
+    <MerchantID>NONE</MerchantID>
+    <TranCode>ServerVersion</TranCode>
+    <SecureDevice>NONE</SecureDevice>
+    <ComPort>0</ComPort>
+  </Admin>
+</TStream>

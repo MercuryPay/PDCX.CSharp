@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<TStream>
+  <Admin>
+    <TranDeviceID></TranDeviceID>
+    <ComPort>0</ComPort>
+    <MerchantID>NONE</MerchantID>
+    <TranCode>PassThrough</TranCode>
+    <SecureDevice>NONE</SecureDevice>
+    <ATCommand>AT!UX4</ATCommand>
+  </Admin>
+</TStream>
