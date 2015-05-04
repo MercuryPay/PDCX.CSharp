@@ -1,9 +1,9 @@
-﻿PDCX.CSharp
+﻿dsiPDCX.CSharp
 ===========
 
-PDCX C# MercuryPay Integration
+C# MercuryPay Integration to Datacap's dsiPDCX
 
-3 step process to integrate to PDCX.
+3 step process to integrate to dsiPDCX.
 
 ##Step 1: Secure Device Initialization
   
@@ -11,7 +11,7 @@ This command should be performed during startup of the POS system with the optio
 It should not be performed prior to every transaction as it takes several seconds to complete with an attached PIN pad.
   
 ```C#
-// Initialize the PDCX bbect
+// Initialize the dsiPDCX bbect
 private DSIPDCXLib.DsiPDCX _pdcx = new DSIPDCXLib.DsiPDCX();
 
 // Create SecureDeviceInit XML, below example is for MagTek IPAD
@@ -32,7 +32,7 @@ string response = _pdcx.ProcessTransaction(request, 1, string.Empty, string.Empt
   
 ##Step 2: Process XML Transaction
 
-Build XML transactions and process with PDCX object.
+Build XML transactions and process with dsiPDCX object.
 
 Below is a sample Credit Sale transaction.
 ```C#
