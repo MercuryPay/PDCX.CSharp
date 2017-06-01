@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<TStream>
+  <Admin>
+    <MerchantID>019588466313922</MerchantID>
+    <TranCode>BatchClose</TranCode>    
+    <BatchNo>1</BatchNo>
+    <BatchItemCount>1</BatchItemCount>
+    <NetBatchTotal>1.46</NetBatchTotal>
+    <CreditPurchaseCount>0</CreditPurchaseCount>
+    <CreditPurchaseAmount>0.00</CreditPurchaseAmount>
+    <CreditReturnCount>0</CreditReturnCount>
+    <CreditReturnAmount>0.00</CreditReturnAmount>
+    <DebitPurchaseCount>1</DebitPurchaseCount>
+    <DebitPurchaseAmount>1.46</DebitPurchaseAmount>
+    <DebitReturnCount>0</DebitReturnCount>
+    <DebitReturnAmount>0.00</DebitReturnAmount>
+    <Account>
+      <AcctNo>SecureDevice</AcctNo>
+    </Account>
+    <ComPort>0</ComPort>
+    <SecureDevice>NONE</SecureDevice>
+    <Memo>IP Dev Test</Memo>
+  </Admin>
+</TStream>
+
+
+

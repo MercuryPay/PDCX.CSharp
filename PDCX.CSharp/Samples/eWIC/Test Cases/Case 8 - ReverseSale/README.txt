@@ -1,0 +1,1 @@
+Make sure you copy the auth code from the approved response on the sale.
