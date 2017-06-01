@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<TStream>
+  <Admin>
+    <MerchantID>019588466313922</MerchantID>
+    <TranCode>BatchClear</TranCode>    
+    <SecureDevice>NONE</SecureDevice>
+    <ComPort>0</ComPort>
+    <Account>
+      <AcctNo>SecureDevice</AcctNo>
+    </Account>
+    <Memo>IP Dev Test</Memo>
+  </Admin>
+</TStream>
