@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<TStream>
+  <Transaction>
+    <MerchantID>2108927001</MerchantID>
+    <TranType>EBT</TranType>
+    <CardType>EWIC</CardType>
+    <TranCode>ReverseSale</TranCode>
+    <InvoiceNo>12211</InvoiceNo>
+	<Amount>
+		<Purchase>17.41</Purchase>
+	</Amount>
+	<RefNo>0001</RefNo>
+	<AuthCode>000197</AuthCode>
+    <SecureDevice>EQUINOXL5300_MERCURY_E2E</SecureDevice>
+    <ComPort>13</ComPort>
+    <PartialAuth>Allow</PartialAuth>
+    <EWICBins>610349:7112913</EWICBins>
+    <Account>
+      <AcctNo>SecureDevice</AcctNo>
+    </Account>
+    <OperatorID>Test</OperatorID>
+    <Memo>Jeremy Test</Memo>
+  </Transaction>
+</TStream>

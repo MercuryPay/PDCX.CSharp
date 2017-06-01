@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<TStream>
+  <Transaction>
+    <MerchantID>2108927001</MerchantID>
+    <TranType>EBT</TranType>
+    <CardType>EWIC</CardType>
+    <TranCode>Voucher</TranCode>
+    <InvoiceNo>2001</InvoiceNo>
+	<Amount>
+		<Purchase>32.00</Purchase>
+	</Amount>
+    <SecureDevice>EQUINOXL5300_MERCURY_E2E</SecureDevice>
+    <ComPort>13</ComPort>
+    <PartialAuth>Allow</PartialAuth>
+    <EWICBins>610349:7112913</EWICBins>
+    <Account>
+      <AcctNo>Prompt</AcctNo>
+    </Account>
+	<TranInfo>
+		<AuthCode>123456</AuthCode>
+		<VoucherNo>12345678-B</VoucherNo>
+	</TranInfo>
+    <OperatorID>Test</OperatorID>
+	<EWICBins>610349:7112913</EWICBins>
+	<UPCItem1>044783005012</UPCItem1>
+	<ItemPrice1>5.40</ItemPrice1>
+	<ItemQty1>1.00</ItemQty1>
+	<PLUItem2>83005012</PLUItem2>
+	<ItemPrice2>2.54</ItemPrice2>
+	<ItemQty2>1.00</ItemQty2>
+	<UPCItem3>044783005074</UPCItem3>
+	<ItemPrice3>4.01</ItemPrice3>
+	<ItemQty3>6.00</ItemQty3>
+    <Memo>IP Dev Test</Memo>
+  </Transaction>
+</TStream>
